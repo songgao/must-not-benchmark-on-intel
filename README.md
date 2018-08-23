@@ -38,7 +38,7 @@ bash-3.2$ go test
 PASS
 ok  	_/tmp/t	0.009s
 bash-3.2$ go test -bench='.*'
-panic: you are on a fucking Intel processor and must not run benchmarks
+panic: Intel are sketchy fucks, therefor you must not run benchmarks on their CPUs.
 
 goroutine 1 [running]:
 github.com/songgao/must-not-benchmark-on-intel/go.init.0()
