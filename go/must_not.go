@@ -14,8 +14,8 @@ func init() {
 
 	for _, arg := range os.Args[1:] {
 		if strings.HasPrefix(arg, "-test.bench=") {
-			panic("you are on a fucking Intel processor " +
-				"and must not run benchmarks")
+			panic("Intel are sketchy fucks, therefor you " +
+				"must not run benchmarks on their CPUs.")
 		}
 	}
 }
